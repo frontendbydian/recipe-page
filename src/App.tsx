@@ -14,7 +14,7 @@ function App() {
             alt="hero image omelette"
             className="md:rounded-2xl"
           />
-          <div className="flex flex-col w-10/12 gap-4 mx-auto">
+          <div className="flex flex-col w-10/12 gap-4 mx-auto md:w-full">
             <h1 className="text-4xl md:text-[40px] font-young-serif text-custom-dark-charcoal">
               Simple Omelette Recipe
             </h1>
@@ -37,7 +37,7 @@ function App() {
               })}
             </ul>
           </div>
-          <div className="flex flex-col w-10/12 gap-4 mx-auto">
+          <div className="flex flex-col w-10/12 gap-4 mx-auto md:w-full">
             <h2 className="text-[28px] font-semibold text-custom-nutmeg font-young-serif">
               Ingredients
             </h2>
@@ -48,7 +48,7 @@ function App() {
             </ul>
             <div className="border-b border-custom-light-grey"></div>
           </div>
-          <div className="flex flex-col w-10/12 gap-4 mx-auto">
+          <div className="flex flex-col w-10/12 gap-4 mx-auto md:w-full">
             <h2 className="text-[28px] font-semibold text-custom-nutmeg font-young-serif">
               Instructions
             </h2>
@@ -67,7 +67,7 @@ function App() {
             </ol>
             <div className="border-b border-custom-light-grey"></div>
           </div>
-          <div className="flex flex-col w-10/12 gap-4 mx-auto">
+          <div className="flex flex-col w-10/12 gap-4 mx-auto md:w-full">
             <h2 className="text-[28px] font-semibold text-custom-nutmeg font-young-serif">
               Nutritions
             </h2>
